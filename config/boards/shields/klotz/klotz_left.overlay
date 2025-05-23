@@ -6,20 +6,6 @@
 
 #include "klotz.dtsi"
 
-/ {
-    chosen {
-        zmk,backlight = &backlight;
-    };
-
-    backlight: backlight {
-        compatible = "zmk,backlight-pwm";
-        label = "BACKLIGHT";
-        pwms = <&pwm0 0 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
-        // Passe die Werte ggf. an dein Board an!
-        brightness = <10>;
-    };
-};
-
 &kscan0 {
 	col-gpios
 		= <&pro_micro 18 GPIO_ACTIVE_HIGH>
