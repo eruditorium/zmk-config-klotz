@@ -197,10 +197,10 @@ combo_##NAME { \
         qwerty {
             label = "QWERTY";
             bindings = <
-&kp Q       &kp W           &kp E        &kp R        &kp T      &kp Y      &kp U        &kp I        &kp O       &kp P
-&hl LGUI A  &hl LEFT_ALT S  &hl LCTRL D  &hl LSHFT F  &kp G      &kp H      &hr RSHFT J  &hr RCTRL K  &hr RGUI L  &hr RALT COLON
-&kp Z       &kp X           &kp C        &kp V        &kp B      &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH
-                                         &lt 1 TAB    &kp SPACE  &lt 2 RET  &kp BSPC
+&kp Q        &kp W           &kp E           &kp R            &kp T         &kp Y        &kp U         &kp I                &kp O         &kp P
+&kp A        &kp S           &kp D           &hl LSHFT F      &kp G         &kp H        &hr RSHFT J   &kp K                &kp L         &kp SEMICOLON
+&hl LCTRL Z  &hl LEFT_GUI X  &hl LEFT_ALT C  &kp V            &kp B         &kp N        &kp M         &hr RIGHT_ALT COMMA  &hr RGUI DOT  &hr RIGHT_CONTROL SLASH
+                                             &lt 1 BACKSPACE  &lt 4 RETURN  &lt 3 SPACE  &lt 2 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp C_VOL_UP C_VOL_DN>;
